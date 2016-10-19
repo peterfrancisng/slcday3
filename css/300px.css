@@ -1,0 +1,95 @@
+body { 
+font-family: 'Raleway', sans-serif;
+background-color: #046;
+}
+
+
+#container{
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+	border: 1px dotted #00ff00;
+	background: #e8e8ee8;
+
+
+}
+
+#mainmenu ul{
+		margin: 0;
+		padding: 0;
+
+}
+
+#mainmenu ul li {
+	list-style-type: none;
+	float: left;
+	display: block;
+	width: 100px;
+	height:100px;
+	text-align: center;
+	line-height: 95px;
+	font-family: tahoma, geneva, sans-serif;
+	font-size: 10px;
+
+}
+
+#mainmenu ul li  a{
+
+ text-decoration: none;
+ color: #fff;
+ 
+ }
+ 
+ #mainmenu ul li:hover {
+    background: #046;
+ }
+
+
+
+
+
+#content{
+	width: 298px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom:5px;
+	padding-left: 5px;
+	border: 1px dotted #00ff00;
+	background: #e8e8ee8;
+
+
+}
+
+#left{
+	width: 84px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom:5px;
+	padding-left: 5px;
+	border: 1px dotted #00ff00;
+	background: #e8e8ee8;
+	float: left;
+
+}
+
+#right{
+	width: 200px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom:5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px dotted #00ff00;
+	background: #e8e8ee8;
+	float: right;
+
+
+}
+
+#footer{
+	/*width: 800px; */
+	clear: both;
+}
